@@ -2,7 +2,7 @@
 
 The repo contains **Hill Cipher Encryption and Decryption**
 
-It allows to encrypt the text using the Hill Cipher technique, and decryption can as well. Checkout the snippets below.
+It allows to encrypt the text using the Hill Cipher technique, and decryption can be done as well. Checkout the snippets below.
 
 ```python
 import hillcipher as hc
@@ -16,10 +16,11 @@ dec = hc.decrypt(enc, key)
 print(enc, dec)
 ```
 
+\
 
+The $2^{nd}$ parameter (i.e., **key**) is optional and can be excluded, but ensure that the count of alphabets in the input string are the multiples of 3.
 
-The $2^{nd}$ parameter (i.e., **key**) is optional and can be excluded, but ensure that the alphabets count in the input string are the multiples of 3.
-
+\
 
 ```python
 import hillcipher as hc
