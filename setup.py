@@ -19,7 +19,7 @@ setup(
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Topic :: Security :: Cryptography:",
-        "Intended Audience :: Students",
+        "Intended Audience :: Education",
         "Intended Audience :: Developers",
         "Programming Language :: Python :: 3",
         "Operating System :: Unix",
