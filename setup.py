@@ -18,7 +18,7 @@ setup(
     keywords=['python', 'cryptography', 'hill', 'hillcipher', 'encryption', 'decryption', 'symmetric encryption'],
     classifiers=[
         "Development Status :: 5 - Production/Stable",
-        "Topic :: Security :: Cryptography:",
+        "Topic :: Security :: Cryptography",
         "Intended Audience :: Education",
         "Intended Audience :: Developers",
         "Programming Language :: Python :: 3",
