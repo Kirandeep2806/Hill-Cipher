@@ -16,7 +16,10 @@ dec = hc.decrypt(enc, key)
 print(enc, dec)
 ```
 
-The _2`<sup>`nd`</sup>` parameter_ (i.e., **key**) is optional and can be excluded, but ensure that the alphabets count in the input string are the multiples of 3.
+
+
+The $2^{nd}$ parameter (i.e., **key**) is optional and can be excluded, but ensure that the alphabets count in the input string are the multiples of 3.
+
 
 ```python
 import hillcipher as hc
