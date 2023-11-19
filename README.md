@@ -4,7 +4,6 @@ The project is about **Hill Cipher Encryption and Decryption**
 
 It allows to encrypt the text using the Hill Cipher technique, and decryption can be done as well. Checkout the snippets below.
 
-
 **Note** : Provide the input in the capital letters.
 
 ```python
@@ -32,4 +31,4 @@ dec = hc.decrypt(enc)
 print(enc, dec)
 ```
 
-The complete code can be found [here](https://github.com/Kirandeep2806/Hill-Cipher/blob/main/hillcipher/hillcipher.py "Source Code") @ www.github.com/Kirandeep2806/Hill-Cipher
+The complete code can be found @ www.github.com/Kirandeep2806/Hill-Cipher
