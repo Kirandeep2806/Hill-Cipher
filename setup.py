@@ -1,10 +1,8 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.1'
-DESCRIPTION = 'Hill Cipher Encryption and Decryption'
-LONG_DESCRIPTION = 'A package that allows to encrypt the text using the Hill Cipher technique, and decryption can as well be made. Checkout the repository for the more easier understanding'
+VERSION = '0.0.2'
+DESCRIPTION = 'Hill Cipher (Encryption and Decryption)'
 
-# Setting up
 setup(
     name="hillcipher",
     version=VERSION,
@@ -12,7 +10,7 @@ setup(
     author_email="kirandeep102030@gmail.com",
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
-    long_description=LONG_DESCRIPTION,
+    long_description=open("README.md", "rt").read(),
     packages=find_packages(),
     install_requires=['numpy', 'mathmatrix'],
     keywords=['python', 'cryptography', 'hill', 'hillcipher', 'encryption', 'decryption', 'symmetric encryption'],
